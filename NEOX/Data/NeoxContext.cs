@@ -30,11 +30,11 @@ namespace Neox.Data
 
                 entity.Property(e => e.Id).ValueGeneratedNever();
 
-                entity.Property(e => e.Nombre).HasColumnType("VARCHAR(8000)");
+                //entity.Property(e => e.Nombre).HasColumnType("VARCHAR(8000)");
 
-                entity.Property(e => e.Edad).HasColumnType("DECIMAL");
+                //entity.Property(e => e.Edad).HasColumnType("DECIMAL");
 
-                entity.Property(e => e.Direccion).HasColumnType("VARCHAR(8000)");
+                //entity.Property(e => e.Direccion).HasColumnType("VARCHAR(8000)");
 
 
             });
